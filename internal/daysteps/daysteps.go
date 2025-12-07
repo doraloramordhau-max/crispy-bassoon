@@ -104,7 +104,7 @@ func DayActionInfo(data string, weight, height float64) string {
 	}
 
 	result := fmt.Sprintf(
-		"Количество шагов: %d.\nДистанция составила %.2f км.\nВы сожгли %.2f ккал.",
+		"Количество шагов: %d.\nДистанция составила %.2f км.\nВы сожгли %.2f ккал.\n",
 		steps, distanceKm, calories,
 	)
 
